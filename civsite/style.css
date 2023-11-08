@@ -1,0 +1,193 @@
+        /* Set the background color to black */
+        body {
+            background-color: #000; /* #000 represents black */
+            color: #fff; /* Text color */
+        }
+
+        /* Container for the entire layout */
+        .container {
+            width: 100%;
+            max-width: 1850px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the content horizontally */
+        }
+
+        /* Left-side rectangle styles */
+        .right-rectangle {
+            width: 250px;
+            background-color: #11476C;
+            float: right;
+            margin-right: 20px; /* Add some space to separate it from the content on the left */
+            padding: 20px;
+        }
+
+        .rr-formatting {
+            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            text-align: center;
+            text-decoration: underline;
+
+        }
+
+        @font-face {
+            font-family: 'Metrophobic-Regular'; /* Give your custom font a name */
+            src: url('fonts/Metrophobic-Regular.ttf') format('truetype'); /* Replace with the actual path to your font file */
+        }
+
+        /* Font styles for the names in the info box */
+        .info-box {
+            background-color: #006DB6; /* Slightly lighter gray background for the info box */
+            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            padding: 20px;
+            margin-bottom: 10px; /* Add space between boxes */
+        }
+
+        /* Reduce space between the name and rank in the info box */
+        .info-box p {
+            margin: 1px 0; /* Adjust the margin to control the space between the name and rank */
+            text-align: center; /* Center the text horizontally */
+        }
+
+        /* Style for images within info-box */
+        .info-box img {
+            display: block; /* Ensures the image takes up the full width of the info-box */
+            margin: 10px auto; /* Adjust the margin for vertical spacing */
+            max-width: 100%; /* Ensures the image fits within the info-box */
+            height: auto; /* Maintains the image's aspect ratio */
+        }
+
+        /* Photos box styles */
+        .photos-box {
+            padding: 10px;
+        }
+
+        /* Limit the maximum width of the image */
+        .photos-box img {
+            max-width: 100%; /* Adjust the percentage as needed */
+            height: auto; /* Maintain the image's aspect ratio */
+        }
+
+        /* Style for the welcome message */
+        .welcome-message {
+            padding: 20px;
+            color: #fff; /* White text color */
+            text-align: center; /* Center align text */
+            margin-top: 20px; /* Add space between the banner and welcome message */
+            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+        }
+
+        /* Style for the welcome message title */
+        .welcome-message h2 {
+            font-size: 28px; /* Adjust the font size */
+        }
+
+        /* Style for the welcome message text */
+        .welcome-message p {
+            font-size: 20px; /* Adjust the font size */
+            line-height: 1.5; /* Adjust line height for readability */
+        }
+
+        /* Style for the job boxes */
+        .welcome-message-box {
+            padding: 20px;
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align text */
+            margin: 1px; /* Add space around each box */
+            width: 65%; /* Adjust the width of the job boxes */
+            display: inline-block; /* Display job boxes next to each other */
+            vertical-align: top; /* Align boxes at the top */
+            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+        }
+
+        /* Style for the Core Values section */
+        .core-values {
+            padding: 20px;
+            color: #fff; /* White text color */
+            text-align: center; /* Center align text */
+            margin-top: 20px; /* Add space between the core values and sub-divisions */
+            font-family: 'Metrophobic-Regular', sans-serif; 
+        }
+
+        /* Style for the core-values boxes */
+        .core-values-box {
+            background-color: #090B14; /* Dark gray background color */
+            padding: 20px;
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align text */
+            margin: 10px; /* Add space around each box */
+            width: 50%; /* Adjust the width of the job boxes */
+            display: inline-block; /* Display job boxes next to each other */
+            vertical-align: top; /* Align boxes at the top */
+            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+        }
+
+        /* Style for the Core Values title */
+        .core-values h1 {
+            font-size: 24px; /* Adjust the font size */
+            margin-bottom: 20px; /* Add space below the title */
+        }
+
+        /* Style for the individual core values */
+        .core-values p {
+            font-size: 16px; /* Adjust the font size */
+            margin: 10px 0; /* Add space between each core value */
+        }
+
+
+        /* Style for the Sub-Divisions section */
+        .sub-divisions {
+            padding: 20px;
+            color: #fff; /* White text color */
+            text-align: center; /* Center align text */
+            margin-top: 20px; /* Add space between the core values and sub-divisions */
+            font-family: 'Metrophobic-Regular', sans-serif; 
+        }
+
+        /* Style for the Sub-Divisions title */
+        .sub-divisions h1 {
+            font-size: 24px; /* Adjust the font size */
+            margin-bottom: 20px; /* Add space below the title */
+        }
+
+        /* Style for the photos in the Sub-Divisions section */
+        .sub-divisions img {
+            max-width: 150px; /* Adjust the maximum width for consistency */
+            height: auto; /* Maintain the image's aspect ratio */
+            margin: 10px; /* Add space around each image */
+            display: inline-block; /* Display images next to each other */
+        }
+
+        /* Style for the job boxes container */
+        .job-box-container {
+            text-align: center; /* Center-align job boxes */
+        }
+
+        /* Style for the job boxes */
+        .job-box {
+            background-color: #090B14; /* Dark gray background color */
+            padding: 20px;
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align text */
+            margin: 10px; /* Add space around each box */
+            width: 20%; /* Adjust the width of the job boxes */
+            display: inline-block; /* Display job boxes next to each other */
+            vertical-align: top; /* Align boxes at the top */
+            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+        }
+
+        /* Style for the job titles */
+        .job-box h2 {
+            font-size: 20px; /* Adjust the font size for job titles */
+            margin: 10px 0; /* Add space around the titles */
+        }
+
+        /* Style for the job descriptions */
+        .job-box p {
+            font-size: 14px; /* Adjust the font size for descriptions */
+        }
+
+        /* Style for the photos at the end */
+        .ending-photos {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 65%;
+        }
