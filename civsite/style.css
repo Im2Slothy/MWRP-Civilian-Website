@@ -21,21 +21,21 @@
         }
 
         .rr-formatting {
-            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            font-family: 'Metrophobic-Regular', sans-serif; 
             text-align: center;
             text-decoration: underline;
 
         }
 
         @font-face {
-            font-family: 'Metrophobic-Regular'; /* Give your custom font a name */
-            src: url('fonts/Metrophobic-Regular.ttf') format('truetype'); /* Replace with the actual path to your font file */
+            font-family: 'Metrophobic-Regular'; 
+            src: url('fonts/Metrophobic-Regular.ttf') format('truetype'); 
         }
 
         /* Font styles for the names in the info box */
         .info-box {
             background-color: #006DB6; /* Slightly lighter gray background for the info box */
-            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            font-family: 'Metrophobic-Regular', sans-serif; 
             padding: 20px;
             margin-bottom: 10px; /* Add space between boxes */
         }
@@ -71,7 +71,7 @@
             color: #fff; /* White text color */
             text-align: center; /* Center align text */
             margin-top: 20px; /* Add space between the banner and welcome message */
-            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            font-family: 'Metrophobic-Regular', sans-serif; 
         }
 
         /* Style for the welcome message title */
@@ -92,9 +92,9 @@
             text-align: center; /* Center-align text */
             margin: 1px; /* Add space around each box */
             width: 65%; /* Adjust the width of the job boxes */
-            display: inline-block; /* Display job boxes next to each other */
+            display: inline-block; /* Display welcome boxes next to each other */
             vertical-align: top; /* Align boxes at the top */
-            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            font-family: 'Metrophobic-Regular', sans-serif; 
         }
 
         /* Style for the Core Values section */
@@ -102,7 +102,7 @@
             padding: 20px;
             color: #fff; /* White text color */
             text-align: center; /* Center align text */
-            margin-top: 20px; /* Add space between the core values and sub-divisions */
+            margin-top: 20px; /* Add space between the core values */
             font-family: 'Metrophobic-Regular', sans-serif; 
         }
 
@@ -116,7 +116,7 @@
             width: 50%; /* Adjust the width of the job boxes */
             display: inline-block; /* Display job boxes next to each other */
             vertical-align: top; /* Align boxes at the top */
-            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            font-family: 'Metrophobic-Regular', sans-serif; 
         }
 
         /* Style for the Core Values title */
@@ -170,7 +170,7 @@
             width: 20%; /* Adjust the width of the job boxes */
             display: inline-block; /* Display job boxes next to each other */
             vertical-align: top; /* Align boxes at the top */
-            font-family: 'Metrophobic-Regular', sans-serif; /* Use your custom font for the text in info boxes */
+            font-family: 'Metrophobic-Regular', sans-serif; 
         }
 
         /* Style for the job titles */
